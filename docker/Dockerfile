@@ -327,7 +327,7 @@ RUN cp -rf raspberrypi/viper-env-file/viper.env Viperviz/viper.env
 RUN echo "Copy the IotSolution Scripts"
 
 #RUN mkdir IotSolution
-RUN cp -rf raspberrypi/iotsolution-scripts-data/* IotSolution/
+RUN cp -rf ryoung30/raspberrypi/iotsolution-scripts-data/* IotSolution/
 
 RUN echo "PIP Install TML core packages"
 RUN pip install maadstml
